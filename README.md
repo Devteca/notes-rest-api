@@ -20,9 +20,9 @@ Em um array de objetos, o array seria o recurso e o objeto seria o dado:
 
 ``` javascript
 const array = [ // este array representa a coleção
-    {id: 1, nome: "Maria"}, // cada um desses objetos é um recurso
-    {id: 2, nome: "João"}, // cada um desses objetos é um recurso
-    {id: 3, nome: "Luna"}, // cada um desses objetos é um recurso
+    { id: 1, nome: "Maria" }, // cada um desses objetos é um recurso
+    { id: 2, nome: "João" }, // cada um desses objetos é um recurso
+    { id: 3, nome: "Luna" }, // cada um desses objetos é um recurso
 ]
 ```
 
