@@ -1,12 +1,12 @@
 # API REST - o verdadeiro início do backend
 
 ## API
-É um conjunto de instruções que determina como se comunicar com a aplicação, em outras palavras: **é o servidor que temos criado nas aulas passadas**, quase todos os serevições WEB possuem API's
+É um conjunto de instruções que determina como se comunicar com a aplicação, em outras palavras: **é o servidor que temos criado nas aulas passadas**, quase todos os serviços WEB possuem API's
 
 ## Rest
-> REST é um acrônimo para *'Representational State Transfer' (Transferencia de Estados Representacional)*
+> REST é um acrônimo para *'Representational State Transfer' (Transferência de Estados Representacional)*
 
-É um conjunto de restrições de aquitetura que podem ser usadas para a contrução de uma API
+É um conjunto de restrições de arquitetura  que podem ser usadas para a construção  de uma API
 
 
 O rest organiza a forma de comunicação entre o cliente e o servidor, para que a requisição do cliente seja enviada de forma a qual o servidor compreenda a mesma de acordo com a forma de construção da API. 
@@ -53,9 +53,9 @@ const array = [
 # JSON - JavaScript no Backend
 > *JavaScript Object Notation - JSON* é uma forma de escrita baseada em objetos JS utilizada para transitar dados na WEB.
 
-No curso iramos utilizar o JSON para criar nossas API's
+No curso iremos utilizar o JSON para criar nossas API's
 
-O JSON é bastante semelhante ao objeto em JS, porém, uma das suas diferençãs é a de que devemos sempre declarar propriedades com **aspas duplas**
+O JSON é bastante semelhante ao objeto em JS, porém, uma das suas diferenças é a  necessidade de sempre declarar propriedades com **aspas duplas**
 ```json
 {
     "rg": 1434564612,
@@ -125,7 +125,7 @@ Sabemos que para cada interação entre cliente e servidor temos uma *REQUISIÇ�
 
 A cada resposta de requisição HTTP é atribuído um código para informar o *STATUS* da solicitação, podendo ser bem sucedido ou não.
 
-estes códigos são compostos por 3 dígitos de números e, a cada centena, temos um tipo de resposta diferente.
+Tais códigos são compostos por 3 dígitos de números e, a cada centena, temos um tipo de resposta diferente.
 ## Principais famílias de códigos utilizados
 200 - Código de sucesso
 1. 200: `OK` -  Requisição bem sucedida
