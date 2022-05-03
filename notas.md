@@ -48,3 +48,70 @@ const array = [
 
 ### 3. JSON - JavaScript no Backend
 É uma notação em que utilizamos para representar os recursos
+
+
+# JSON - JavaScript no Backend
+> *JavaScript Object Notation - JSON* é uma forma de escrita baseada em objetos JS utilizada para transitar dados na WEB.
+
+No curso iramos utilizar o JSON para criar nossas API's
+
+O JSON é bastante semelhante ao objeto em JS, porém, uma das suas diferençãs é a de que devemos sempre declarar propriedades com **aspas duplas**
+```json
+{
+    "rg": 1434564612,
+    "nome": "Maria",
+    "sobrenome": "Silva Santos",
+    "endereco":{
+        "rua": "Rua da paz",
+        "numero": 743,
+        "bairro": "Graça"
+    }
+}
+```
+##### o JSON **NÃO ACEITA** aspas simples
+
+# Manipulação de Coleção de Recursos
+Toda comunicação cliente servidor possui métodos que chamamos de verbos
+
+## 1. GET
+
+Este verbo é utilizado para fazer uma requisição ao servidor para listar os recursos contidos numa coleção - READ
+
+exemplo: 
+``` javascript
+    app.get('/livros')
+    app.get('/livros/3') // /livros/:id
+```
+
+## 2. POST
+Este verbo é utilizado para cadastrar sempre um novo recurso à coleção - CREATE
+
+``` javascript
+    app.post('/livros')
+    app.post('/livros/3')// /livros/:id
+```
+
+
+
+## 3. PUT
+O put altera por completo um recurso numa coleção - UPDATE
+
+``` javascript
+    app.put('/livros')
+    app.put('/livros/3')// /livros/:id
+```
+
+## 4. PATCH
+É utilizado para alterar especificamente uma parte de um recurso
+
+``` javascript
+    app.patch('/livros')
+    app.patch('/livros/3')// /livros/:id
+```
+## 5. DELETE
+Como já esta descrito, este deleta o recurso de uma coleção - DELETE
+
+``` javascript
+    app.delete('/livros')
+    app.delete('/livros/3')// /livros/:id
+```
